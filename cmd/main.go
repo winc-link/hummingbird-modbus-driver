@@ -15,8 +15,8 @@
 package main
 
 import (
+	"github.com/winc-link/hummingbird-modbus-driver/config"
 	"github.com/winc-link/hummingbird-modbus-driver/internal/driver"
-	"github.com/winc-link/hummingbird-mqtt-driver/config"
 	"github.com/winc-link/hummingbird-sdk-go/commons"
 	"github.com/winc-link/hummingbird-sdk-go/service"
 )
