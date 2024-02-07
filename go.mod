@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/simonvetter/modbus v1.6.0
-	github.com/winc-link/hummingbird-sdk-go v0.0.0-20231023114328-0ad89ef864bf
+	github.com/winc-link/hummingbird-sdk-go v0.0.0-20231029081056-0fbd6a6e006c
 )
 
 require (

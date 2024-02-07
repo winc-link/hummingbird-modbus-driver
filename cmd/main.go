@@ -22,7 +22,7 @@ import (
 )
 
 func main() {
-	driverService := service.NewDriverService("hummingbird-modbus-driver", commons.HummingbirdIot)
+	driverService := service.NewDriverService("hummingbird-official-modbus-driver", commons.HummingbirdIot)
 	config.InitConfig(driverService)
 	modbusDriver := driver.NewModbusTcpProtocolDriver(driverService)
 	if err := driverService.Start(modbusDriver); err != nil {
